@@ -2,8 +2,8 @@ import streamlit as st
 import requests
 
 # Configura la URL de tu API (ajusta según tu servidor)
-API_URL = "appcreditrisk-production-aa56.up.railway.app.app/capture/"
-API_URL_PREDICT = "appcreditrisk-production-aa56.up.railway.app.app/features/predict_and_explain/"
+API_URL = "appcreditrisk-production-aa56.up.railway.app/capture/"
+API_URL_PREDICT = "appcreditrisk-production-aa56.up.railway.app/features/predict_and_explain/"
 
 # Configurar navegación en la barra lateral
 st.sidebar.title("Navegación")
